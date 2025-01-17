@@ -95,7 +95,7 @@
   };
 
   # Install firefox.
-  programs.firefox.enable = true;
+  # programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -117,6 +117,7 @@
   neovim
   #xfce.xfburn
   pkgs.obsidian
+  pkgs.microsoft-edge
   ];
 
   programs.steam.enable = true;
